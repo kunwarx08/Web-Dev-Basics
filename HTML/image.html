@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images</title>
+    <style>
+        body{
+            background-color: #414141;
+            color: #FFFFFF;
+        }
+    </style>
+</head>
+<body>
+
+    <img src="/images/trexskater.jpeg" alt="no image loaded" width="200px">
+    
+    <picture></picture> <!-- not used it but read about it for re reference visit mdn -->
+    
+    <img src="./images/trexskater.jpeg" usemap="#image-map">
+
+<map name="image-map">
+    <area onclick="trex()" target="" alt="" title="" href="" coords="276,317,110,153" shape="rect">
+    <area onclick="bird()" target="" alt="" title="" href="" coords="505,296,390,214" shape="0">
+</map>
+
+<script>
+    function trex(){
+        alert("You clicked on trex");
+    }
+    function bird(){
+        alert("Yoou clicked on bird");
+    }
+</script>
+    
+    
+</body>
+</html>
